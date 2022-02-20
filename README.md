@@ -7,8 +7,7 @@ To get a Git project into your build:
 
 Add it in your root build.gradle at the end of repositories:
 
-```
-gradle
+```gradle
 allprojects {
   repositories {
   ...
@@ -19,8 +18,7 @@ allprojects {
 
 ### Step 2. Add the dependency
 
-```
-gradle
+```gradle
     dependencies {
         implementation 'uz.android.toast:toasty:last-version'
 	}
