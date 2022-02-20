@@ -1,4 +1,5 @@
-[![Library Version](https://jitpack.io/v/FozilbekImomov/NfcCardReaderHumo.svg)](https://jitpack.io/#FozilbekImomov/NfcCardReaderHumo)
+
+[![Library Version](https://jitpack.io/v/FozilbekImomov/Libtest.svg)](https://jitpack.io/#FozilbekImomov/Libtest)
 
 To get a Git project into your build:
 
@@ -6,19 +7,22 @@ To get a Git project into your build:
 
 Add it in your root build.gradle at the end of repositories:
 
-```gradle
+```
+gradle
 allprojects {
   repositories {
   ...
 	maven { url 'https://jitpack.io' }
-	  }
+	}
 }
 ```
 
 ### Step 2. Add the dependency
 
-```gradle
-dependencies {
-	        implementation 'com.github.FozilbekImomov:NfcCardReaderHumo:last-version'
+```
+gradle
+    dependencies {
+        implementation 'uz.android.toast:toasty:last-version'
 	}
+
  ```
