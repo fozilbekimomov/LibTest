@@ -21,10 +21,9 @@ class Toasty {
             this.message = message
             toast = Toast.makeText(context, message, duration)
         }
-
-        fun show() {
-            toast.show()
-        }
+    }
+    fun show() {
+        toast.show()
     }
 //
 }
